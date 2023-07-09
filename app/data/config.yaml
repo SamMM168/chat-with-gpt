@@ -1,1 +1,5 @@
-
+services:
+  openai:
+    apiKey: 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
+  elevenlabs:
+    apiKey: (your api key)
