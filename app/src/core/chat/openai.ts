@@ -4,7 +4,7 @@ import SSE from "../utils/sse";
 import { OpenAIMessage, Parameters } from "./types";
 import { backend } from "../backend";
 
-export const defaultModel = 'gpt-3.5-turbo';
+export const defaultModel = 'gpt-4';
 
 export function isProxySupported() {
     return !!backend.current?.services?.includes('openai');
@@ -15,7 +15,7 @@ function shouldUseProxy(apiKey: string | undefined | null) {
 }
 
 function getEndpoint(proxied = false) {
-    return proxied ? '/chatapi/proxies/openai' : 'https://api.openai.com';
+    return proxied ? '/chatapi/proxies/openai' : 'https://chimeragpt.adventblocks.cc';
 }
 
 export interface OpenAIResponseChunk {
