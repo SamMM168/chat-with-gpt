@@ -57,7 +57,7 @@ export class ReplyRequest extends EventEmitter {
 
         this.timer = setInterval(() => {
             const sinceLastChunk = Date.now() - this.lastChunkReceivedAt;
-            if (sinceLastChunk > 30000 && !this.done) {
+            if (sinceLastChunk > 120000 && !this.done) {
                 this.onError('no response from OpenAI in the last 30 seconds');
             }
         }, 2000);
