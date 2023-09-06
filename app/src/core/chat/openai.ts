@@ -15,7 +15,7 @@ function shouldUseProxy(apiKey: string | undefined | null) {
 }
 
 function getEndpoint(proxied = false) {
-    return proxied ? '/chatapi/proxies/openai' : 'https://chimeragpt.adventblocks.cc';
+    return proxied ? '/chatapi/proxies/openai' : 'https://newbi.zeabur.app';
 }
 
 export interface OpenAIResponseChunk {
