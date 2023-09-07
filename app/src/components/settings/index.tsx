@@ -104,7 +104,7 @@ export default function SettingsDrawer(props: SettingsDrawerProps) {
                         <Tabs.Tab value="chat">Chat</Tabs.Tab>
                         <Tabs.Tab value="speech">Speech</Tabs.Tab>
                         <Tabs.Tab value="ui">UI</Tabs.Tab>
-                        <Tabs.Tab value="user">User</Tabs.Tab>
+                        <Tabs.Tab value="user">API Key</Tabs.Tab>
                     </Tabs.List>
                     <ChatOptionsTab />
                     <SpeechOptionsTab />
