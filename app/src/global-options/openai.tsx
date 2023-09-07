@@ -15,7 +15,7 @@ export const openAIOptions: OptionGroup = {
                 placeholder: "sk-************************************************",
                 description: <>
                     <p>
-                        <a href="https://dwz.cn/sNjc3GAV" target="_blank" rel="noreferrer" style="color: red;">
+                        <a href="https://dwz.cn/sNjc3GAV" target="_blank" rel="noreferrer" >
                             <FormattedMessage defaultMessage="购买API key" description="购买API Key" />
                         </a>
                     </p>
