@@ -11,12 +11,12 @@ export const openAIOptions: OptionGroup = {
             displayAsSeparateSection: true,
             renderProps: () => ({
                 type: "password",
-                label: "Your OpenAI API Key",
+                label: "Your API Key",
                 placeholder: "sk-************************************************",
                 description: <>
                     <p>
-                        <a href="https://platform.openai.com/account/api-keys" target="_blank" rel="noreferrer">
-                            <FormattedMessage defaultMessage="Find your API key here." description="Label for the link that takes the user to the page on the OpenAI website where they can find their API key." />
+                        <a href="https://dwz.cn/sNjc3GAV" target="_blank" rel="noreferrer">
+                            <FormattedMessage defaultMessage="购买API key" description="购买API Key" />
                         </a>
                     </p>
                     <p>
