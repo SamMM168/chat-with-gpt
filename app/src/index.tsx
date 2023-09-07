@@ -60,7 +60,7 @@ async function loadLocaleData(locale: string) {
 }
 
 async function bootstrapApplication() {
-    const locale = navigator.language;
+    const locale = "en-US";
 
     let messages: any;
     try {
