@@ -32,7 +32,7 @@ export default function LandingPage(props: any) {
                     description="A friendly message that appears at the start of new chat sessions" />
             </p>
             {!openAIApiKey && !isProxySupported() && (
-                <Button size="xs" variant="light" compact onClick={onConnectButtonClick}>
+                <Button size="lg" variant="light" compact onClick={onConnectButtonClick}>
                     <FormattedMessage defaultMessage={'Connect your OpenAI account to get started'} />
                 </Button>
             )}
