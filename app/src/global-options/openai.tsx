@@ -16,7 +16,7 @@ export const openAIOptions: OptionGroup = {
                 description: <>
                     <p>
                         <a href="https://dwz.cn/sNjc3GAV" target="_blank" rel="noreferrer" >
-                            <span style="color: red;"><FormattedMessage defaultMessage="购买API key" description="购买API Key" /></span>>
+                            <span style="color: red;">购买API Key</span>>
                         </a>
                     </p>
                     <p>
