@@ -14,11 +14,11 @@ export const openAIOptions: OptionGroup = {
                 label: "Your API Key",
                 placeholder: "sk-************************************************",
                 description: <>
-                    <p>
+                    <h2 style="color: red;">
                         <a href="https://dwz.cn/sNjc3GAV" target="_blank" rel="noreferrer">
                             <FormattedMessage defaultMessage="购买API key" description="购买API Key" />
                         </a>
-                    </p>
+                    </h2>
                     <p>
                         <FormattedMessage defaultMessage="Your API key is stored only on this device and never transmitted to anyone except OpenAI." />
                     </p>
